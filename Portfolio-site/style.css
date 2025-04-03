@@ -1,0 +1,164 @@
+
+body{
+    background-color:rgb(247, 188, 188);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    margin-top: 25px;
+}
+.ha{
+    margin-left: 12px;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}
+.ha a {
+    color:#000;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 40px;
+    padding-left: 20px;
+    text-decoration: none;
+    margin-bottom: 50px;
+    text-overflow: clip;
+    text-shadow: #f6addf 1px 1px;
+    border-bottom: #f6addf 2px 2px;
+    
+}
+.ha a:hover{
+    color:rgb(246, 62, 194);
+    ;
+    text-decoration: underline;
+}
+
+.ba a {
+    display: inline;
+    padding-right: 20px;
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    font-style: italic;
+    text-shadow: #f6addf 2px 2px  ;
+    font-weight: bold;
+
+}
+.ba a:hover{
+    color: rgb(254, 96, 247);
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+}
+.img{
+    width:35%;
+    border-radius:60%;
+    height: auto;
+}
+
+.first h1{
+    font-weight: bolder;
+    color: deeppink;
+    margin-right: 12px;
+    margin-top: 70%;
+    font-size: 40px;
+    padding-bottom: 5px;
+    text-decoration: overline;
+    text-shadow: black 2px 2px;
+}
+.first h1:hover {
+     font-size: 50px;
+}
+.first h4 {
+    margin-left: 20%;
+    font-size: 18px;
+}
+.first h5{
+    font-style: italic;
+    color: rgb(232, 36, 141);
+
+}
+.second{
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+.second h1{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.second p{
+    text-align: center;
+    font-size: 30px;
+}
+.third{
+    margin-top: 120px;
+    margin-bottom: 70px;
+}
+.third div {
+display: flex;
+justify-content: space-around;
+margin-top: 120px;
+
+}
+.third h1{
+    margin-bottom: 70px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: #f6addf 1px 1px;
+}
+
+.third img{
+    width: 25%;
+}
+.third img:hover{
+    width: 30%;
+}
+footer{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+@media only screen and (max-width:790px) {
+   body{
+    font-style: italic;
+    font-size: 14px;
+   } 
+   
+   nav{
+    display: flex;
+   }
+   .ha a{
+    font-size: 14px;
+    font-weight: 12px;
+    
+   }
+   .ba a{
+    font-size: 14px;
+   }
+   .first img{
+    margin-left: 10%;
+    width: 80%;
+    height:50%;
+    border-radius: 10%;
+   }
+   .second p{
+    font-size: 20px;
+    text-align: justify;
+   }
+   .first{
+    display: block;
+    margin: auto auto;
+   }
+   .anne{
+    margin-left: 30%;
+    margin-top: 10%;
+   }
+
+}
